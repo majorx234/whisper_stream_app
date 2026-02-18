@@ -16,3 +16,17 @@
  */
 
 #include "whisper_client.hpp"
+
+WhisperClient::WhisperClient(whisper_params params){}
+WhisperClient::~WhisperClient(){}
+
+bool WhisperClient::resume(){
+    return false;
+}
+bool WhisperClient::pause(){
+    return false;
+}
+bool WhisperClient::clear(){
+    return false;
+}
+void WhisperClient::reader_loop(){}
